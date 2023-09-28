@@ -108,10 +108,9 @@ class _HomePageState extends State<HomePage> {
               ),
               Container(
                 width: MediaQuery.of(context).size.width,
-                height: MediaQuery.of(context).size.height * 0.25,
+                height: 200,
                 margin: const EdgeInsets.only(
                   left: 20.0,
-                  right: 20.0,
                 ),
                 child: ListView(
                   scrollDirection: Axis.horizontal,
@@ -156,10 +155,9 @@ class _HomePageState extends State<HomePage> {
               ),
               Container(
                 width: MediaQuery.of(context).size.width,
-                height: MediaQuery.of(context).size.height * 0.09,
+                height: 60,
                 margin: const EdgeInsets.only(
                   left: 20.0,
-                  right: 20.0,
                 ),
                 child: ListView(
                   scrollDirection: Axis.horizontal,
